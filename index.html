@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empresa de Turismo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#destinos">Destinos</a></li>
+        <li><a href="#reservas">Reservas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h1>Bienvenido a nuestra Empresa de Turismo</h1>
+    <p>Su mejor opción para explorar el mundo.</p>
+    <a href="#destinos" class="cta">Descubre nuestros destinos</a>
+  </section>
+
+  <section id="destinos">
+    <h2>Nuestros Destinos</h2>
+    <div class="destino">
+        <div class="imagendestino">
+      <img src="destino1.jpg" alt="Destino 1">
+    </div>
+    <div class="textodestino">
+      <h3>Montaña 7 Colores</h3>
+      
+    </div>
+    </div>
+    <div class="destino">
+        <div class="imagendestino">
+      <img src="destino2.jpeg" alt="Destino 2">
+        </div>
+        <div class="textodestino">
+        <h3>Laguna Humantay</h3>
+      
+    </div>        
+    </div>
+    <div class="destino">
+        <div class="imagendestino">
+      <img src="destino3.jpeg" alt="Destino 3">
+        </div>
+        <div class="textodestino">
+      <h3>Nevado Mateo</h3>
+    </div>
+    </div>
+    <div class="destino">
+        <div class="imagendestino">
+        <img src="destino4.jpg" alt="Destino 4">
+        </div>
+        <div class="textodestino">
+            <h3>Lineas de Nazca</h3>
+            </div>
+        
+    </div>
+    </div>
+</section>
+
+  <section id="reservas">
+    <h2>Reserva tu Viaje</h2>
+    <form action="reservar.php" method="POST">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="destino">Destino:</label>
+      <select id="destino" name="destino" required>
+        <option value="destino1">Destino 1</option>
+        <option value="destino2">Destino 2</option>
+        <option value="destino3">Destino 3</option>
+        <option value="destino4">Destino 4</option>
+        <option value="destino5">Destino 5</option>
+      </select>
+      <label for="fecha">Fecha de Viaje:</label>
+      <input type="date" id="fecha" name="fecha" required>
+      <button type="submit" class="btn">Reservar</button>
+    </form>
+  </section>
+
+  <footer id="contacto">
+    <p>Contacta con nosotros:</p>
+    <nav>
+    <ul>
+      <li>Teléfono: 123-456-789</li>
+      <li>Email: info@empresa.com</li>
+      <li>Dirección: Calle Principal, Ciudad, País</li>
+    </ul>
+    <p>Síguenos en redes sociales:</p>
+    <ul class="redes-sociales">
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">Instagram</a></li>
+    </ul>
+</nav>
+  </footer>
+</body>
+</html>

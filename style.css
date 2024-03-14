@@ -1,0 +1,167 @@
+/* Reset de estilos */
+body, html, h1, h2, h3, p, ul, li, a, img, form, input, select, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Estilos de la sección de inicio */
+  #inicio {
+    background-color: rgba(255, 255, 255, 0.5); 
+    background-image: url('Fondo.jpeg');
+      background-size: cover;
+  background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+
+  }
+  
+  #inicio h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  #inicio p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  /* Estilos de la sección de destinos */
+  #destinos {
+    padding: 80px;
+    text-align: center;
+  }
+  
+  #destinos h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .destino {
+    display: inline-block;
+    margin: 0 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Sombra */
+    position: relative; /* Posicionamiento relativo para el efecto de superposición */
+    overflow: hidden; /* Oculta el desbordamiento */
+    height: 200px;
+    width: 200px;
+  }
+  
+
+  .destino img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .destino h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .destino p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+.imagendestino {
+    
+    /* border: 1px solid black; */
+    width: 200px;
+    height: 150px;
+    overflow: hidden; /* Oculta el desbordamiento */
+
+}
+
+.textodestino{
+    /* border: 1px solid black; */
+    width: 200px;
+    height: 50px;
+    overflow: hidden; /* Oculta el desbordamiento */
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+  /* Estilos del formulario de reserva */
+  #reservas {
+    background-color: #111;
+    color: #fff;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #ff003c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #ff335d;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: #111;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+  }
+  
