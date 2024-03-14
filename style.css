@@ -104,6 +104,15 @@ body, html, h1, h2, h3, p, ul, li, a, img, form, input, select, button {
     height: 150px;
     overflow: hidden; /* Oculta el desbordamiento */
 
+
+}
+
+
+.imagendestino img:hover{
+    transform:scale(1.1);
+    /* background-color: #072946; */
+   
+    
 }
 
 .textodestino{
