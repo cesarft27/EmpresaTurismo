@@ -14,6 +14,7 @@ body, html, h1, h2, h3, p, ul, li, a, img, form, input, select, button {
     background-color: #111;
     color: #fff;
     padding: 20px;
+    text-align: center;
   }
   
   nav ul {
@@ -77,6 +78,12 @@ body, html, h1, h2, h3, p, ul, li, a, img, form, input, select, button {
     width: 200px;
   }
   
+  .destino:hover{
+    transform:scale(1.1);
+    /* background-color: #072946; */
+   
+    
+}
 
   .destino img {
     width: 100%;
@@ -108,12 +115,7 @@ body, html, h1, h2, h3, p, ul, li, a, img, form, input, select, button {
 }
 
 
-.imagendestino img:hover{
-    transform:scale(1.1);
-    /* background-color: #072946; */
-   
-    
-}
+
 
 .textodestino{
     /* border: 1px solid black; */
@@ -135,14 +137,17 @@ body, html, h1, h2, h3, p, ul, li, a, img, form, input, select, button {
   }
   
   form {
-    max-width: 400px;
+    max-width: 300px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
   }
   
   form label {
     display: block;
     margin-bottom: 10px;
   }
+  
   
   form input, form select {
     width: 100%;
